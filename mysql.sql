@@ -1,0 +1,11 @@
+CREATE TABLE `contact` (
+
+`id` INT(11) NOT NULL,
+
+`name` VARCHAR(50) NOT NULL,
+
+`email` VARCHAR(50) NOT NULL,
+
+`message` VARCHAR(255) NOT NULL
+
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
